@@ -1,3 +1,52 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <!-- <div style="display: block">
+                            <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType">
+                        </canvas>
+                        </div> -->
+                        <app-graficoDona [leyenda]="this.graficos.grafico1.leyenda" [doughnutChartData]="this.graficos.grafico1.data" [doughnutChartLabels]="this.graficos.grafico1.labels" [doughnutChartType]="this.graficos.grafico1.type"></app-graficoDona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <app-graficoDona [leyenda]="this.graficos.grafico2.leyenda" [doughnutChartData]="this.graficos.grafico2.data" [doughnutChartLabels]="this.graficos.grafico2.labels" [doughnutChartType]="this.graficos.grafico2.type"></app-graficoDona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <app-graficoDona [leyenda]="this.graficos.grafico3.leyenda" [doughnutChartData]="this.graficos.grafico3.data" [doughnutChartLabels]="this.graficos.grafico3.labels" [doughnutChartType]="this.graficos.grafico3.type"></app-graficoDona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <app-graficoDona [leyenda]="this.graficos.grafico4.leyenda" [doughnutChartData]="this.graficos.grafico4.data" [doughnutChartLabels]="this.graficos.grafico4.labels" [doughnutChartType]="this.graficos.grafico4.type"></app-graficoDona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
